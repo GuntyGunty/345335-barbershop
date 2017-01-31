@@ -1,20 +1,238 @@
+html,
+body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+
+
+.logo-barbershop {
+  width: 110px;
+  min-height: 25px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-title {
+  font-family: PTSans;
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+  float: left;
+  margin-right: 650px;
+  margin-bottom: auto;
+  }
+  .breadcrumbs {
+    float: left;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 650px;
+    }
+.catalog-content {
+  width: 940px;
+  min-height: 710px;
+}
+.left-panel {
+  float: left;
+  width: 220px;
+  min-height: 580px;
+}
+.right-panel {
+  float: right;
+  width: 700px;
+  min-height: 700px;
+}
+.catalog-gallery, .catalog-gallery-item {
+display: inline-block;
+margin:0 10px 10px 10px;
+font-size: 12px;
+text-align: left;
+}
+
+.catalog-gallery-item {
+  width: 220px;
+  min-height: 290px;
+  background-color: solid white;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.paginations {
+  display: inline-block;
+}
+
+
+.catalog-item-title{
+  font-family: PTSans;
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+  float: left;
+  margin-right: 330px;
+  margin-bottom: auto;
+}
+
+.catalog-item-breadcrumbs {
+  float: left;
+  font-family: PTSans;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin-right: 330px;
+}
+.left-side {
+  float: left;
+  width: 460px;
+  min-height: 680px;
+  margin-bottom: 10px;
+}
+.right-side {
+  float: right;
+  width: 390px;
+  min-height: 560px;
+}
+.articul {
+  text-align: right;
+}
+.avalible {
+  text-align: left;
+}
+.photo-panel {
+  float: left;
+  min-height: 680px;
+  width: 460px;
+
+}
+.big-image {
+  float: left;
+
+}
+.small-images {
+  display: inline-block;
+  width: 460px;
+
+  vertical-align: top;
+}
+.small-images:last-child{
+  margin-right: 0px;
+}
+
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
 body {
 font-family: PTSans;
 color: #000000;
-font-size: 14pt;
-line-height: 24pt;
+font-size: 14px;
+line-height: 18px;
 }
 
 h2 {
 font-family: PTSans;
 color: #000000;
-font-size: 30pt;
-line-height: 42pt;
+font-size: 30px;
+line-height: 42px;
 }
 h1
 {
 font-family: PTSans;
 color: #000000;
-font-size: 30pt;
-line-height: 42pt;
+font-size: 30px;
+line-height: 42px;
 }
