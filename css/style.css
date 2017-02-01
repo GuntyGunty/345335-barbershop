@@ -3,11 +3,14 @@ body {
   min-width: 1122px;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
 }
 
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
@@ -41,34 +44,62 @@ body {
   margin-left: auto;
   margin-bottom: 25px;
 }
-
-
-
-.logo-barbershop {
-  width: 110px;
-  min-height: 25px;
+.main-catalog-navigation {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 660px;
+  min-height: 70px;
+}
+
+}
+.main_navigation_item {
+  display: inline-block;
+}
+.logo-barbershop {
+  float: left;
+  width: 140px;
+  min-height: 70px;
 }
 
 .main-title {
-  font-family: PTSans;
+  font-family: "PTSans", "Arial" sans-serif;
   font-size: 30px;
-  line-height: 42px;
-  color: #000000;
-  float: left;
+  line-height: 1.4;
   margin-right: 650px;
   margin-bottom: auto;
-  }
-  .breadcrumbs {
-    float: left;
-    font-family: PTSans;
-    font-size: 14px;
-    line-height: 20px;
-    color: #000000;
-    margin-right: 650px;
-    }
+}
+.main-catalog-title{
+  width: 300px;
+  height: auto;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.breadcrumbs {
+  font-family: "PTSans", "Arial", sans-serif;;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-right: 650px;
+  text-transform: uppercase;
+}
+.breadcrumbs-catalog {
+  font-size: 14px;
+  display: inline-block;
+  font-family: "PTSans", "Arial", sans-serif;
+
+  font-weight: normal;
+  margin-right: 0px;
+  text-transform: uppercase;
+}
+.breadcrumbs-item {
+  font-size: 14px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 0px;
+  text-transform: uppercase;
+}
 .catalog-content {
   width: 940px;
   min-height: 710px;
@@ -77,60 +108,85 @@ body {
   float: left;
   width: 220px;
   min-height: 580px;
+  margin-right: 10px;
+
 }
 .right-panel {
   float: right;
   width: 700px;
   min-height: 700px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
 }
-.catalog-gallery, .catalog-gallery-item {
-display: inline-block;
-margin:0 10px 10px 10px;
-font-size: 12px;
-text-align: left;
+.catalog-gallery {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 0px;
 }
 
 .catalog-gallery-item {
   width: 220px;
   min-height: 290px;
-  background-color: solid white;
-  text-align: left;
-  margin-right: 20px;
+  background-color: white;
+  margin-left: 10px;
+  display: inline-block;
+}
+.catalog-gallery-item:nth-child(3){
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.info {
+  font-family: "[PTSans]", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+.info-title {
+  font-family: "[PTSans]", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
-.paginations {
+.makers-items {
+  margin-bottom: 20px;
+}
+.pag {
   display: inline-block;
 }
 
 
 .catalog-item-title{
-  font-family: PTSans;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 30px;
-  line-height: 42px;
+  line-height: 1.2;
   color: #000000;
-  float: left;
-  margin-right: 330px;
+  margin-right: 10px;
   margin-bottom: auto;
 }
 
 .catalog-item-breadcrumbs {
-  float: left;
-  font-family: PTSans;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.2;
   color: #000000;
-  margin-right: 330px;
+  margin-right: 10px;
+  margin-bottom: auto;
 }
 .left-side {
   float: left;
   width: 460px;
   min-height: 680px;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 .right-side {
   float: right;
   width: 390px;
   min-height: 560px;
+  box-sizing: border-box;
 }
 .articul {
   text-align: right;
@@ -141,24 +197,18 @@ text-align: left;
 .photo-panel {
   float: left;
   min-height: 680px;
-  width: 460px;
-
+  font-size: 0px;
 }
 .big-image {
-  float: left;
-
+  width: 460px;
+  min-height: 500px;
 }
 .small-images {
+  font-size: 0px;
+}
+.image {
   display: inline-block;
-  width: 460px;
-
-  vertical-align: top;
 }
-.small-images:last-child{
-  margin-right: 0px;
-}
-
-
 .features {
   margin-bottom: 80px;
 }
@@ -217,22 +267,24 @@ text-align: left;
 }
 
 body {
-font-family: PTSans;
-color: #000000;
-font-size: 14px;
-line-height: 18px;
+  font-family: "PTSans", "Arial", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
 }
 
 h2 {
-font-family: PTSans;
-color: #000000;
-font-size: 30px;
-line-height: 42px;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-h1
-{
-font-family: PTSans;
-color: #000000;
-font-size: 30px;
-line-height: 42px;
+h1 {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  text-transform: uppercase;
 }
