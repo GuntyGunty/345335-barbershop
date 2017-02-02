@@ -50,8 +50,7 @@ img {
   min-height: 70px;
 }
 
-}
-.main_navigation_item {
+.nav {
   display: inline-block;
 }
 .logo-barbershop {
@@ -129,12 +128,11 @@ img {
   width: 220px;
   min-height: 290px;
   background-color: white;
-  margin-left: 10px;
+  margin-right: 10px;
   display: inline-block;
 }
 .catalog-gallery-item:nth-child(3){
-  margin-left: 0px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .info {
   font-family: "[PTSans]", "Arial", sans-serif;
