@@ -5,6 +5,28 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "PTSans", "Arial", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 img {
   max-width: 100%;
 }
@@ -21,6 +43,8 @@ img {
   padding: 0 10px;
 }
 
+/* header for index*/
+
 .main-header {
   margin-bottom: 60px;
 }
@@ -30,13 +54,26 @@ img {
   width: 780px;
   min-height: 70px;
 }
-
+.nav {
+  display: inline-block;
+}
 .user-block {
   float: right;
   width: 140px;
   min-height: 70px;
 }
-
+/*header for catalog*/
+.main-catalog-navigation {
+  float: left;
+  width: 660px;
+  min-height: 70px;
+}
+.logo-barbershop {
+  float: left;
+  width: 140px;
+  min-height: 70px;
+}
+/*body for index*/
 .index-logo {
   width: 368px;
   min-height: 204px;
@@ -44,21 +81,37 @@ img {
   margin-left: auto;
   margin-bottom: 25px;
 }
-.main-catalog-navigation {
-  float: left;
-  width: 660px;
-  min-height: 70px;
+.features {
+  margin-bottom: 80px;
 }
 
-.nav {
-  display: inline-block;
-}
-.logo-barbershop {
+.features-item {
   float: left;
-  width: 140px;
-  min-height: 70px;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
 }
 
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
 .main-title {
   font-family: "PTSans", "Arial" sans-serif;
   font-size: 30px;
@@ -66,6 +119,7 @@ img {
   margin-right: 650px;
   margin-bottom: auto;
 }
+/*body for catalog*/
 .main-catalog-title{
   width: 300px;
   height: auto;
@@ -92,13 +146,7 @@ img {
   margin-right: 0px;
   text-transform: uppercase;
 }
-.breadcrumbs-item {
-  font-size: 14px;
-  display: inline-block;
-  box-sizing: border-box;
-  margin-right: 0px;
-  text-transform: uppercase;
-}
+
 .catalog-content {
   width: 940px;
   min-height: 710px;
@@ -154,8 +202,14 @@ img {
 .pag {
   display: inline-block;
 }
-
-
+/*body for catalog item*/
+.breadcrumbs-item {
+  font-size: 14px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 0px;
+  text-transform: uppercase;
+}
 .catalog-item-title{
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 30px;
@@ -207,38 +261,7 @@ img {
 .image {
   display: inline-block;
 }
-.features {
-  margin-bottom: 80px;
-}
-
-.features-item {
-  float: left;
-  width: 300px;
-  min-height: 175px;
-  margin-right: 20px;
-}
-
-.features-item:last-child {
-  margin-right: 0;
-}
-
-.index-content {
-  margin-bottom: 35px;
-  padding: 50px 80px;
-}
-
-.index-content-left {
-  float: left;
-  width: 380px;
-  min-height: 330px;
-}
-
-.index-content-right {
-  float: right;
-  width: 300px;
-  min-height: 330px;
-}
-
+/*footer*/
 .main-footer {
   margin-top: 65px;
   padding-top: 60px;
@@ -262,27 +285,4 @@ img {
   float: right;
   width: 180px;
   min-height: 90px;
-}
-
-body {
-  font-family: "PTSans", "Arial", sans-serif;
-  color: #000000;
-  font-size: 16px;
-  line-height: 1.2;
-  font-weight: normal;
-}
-
-h2 {
-  font-family: "PTSans", "Arial", sans-serif;
-  font-size: 24px;
-  line-height: 1.4;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-h1 {
-  font-family: "PTSans", "Arial", sans-serif;
-  font-size: 30px;
-  line-height: 1.4;
-  font-weight: bold;
-  text-transform: uppercase;
 }
