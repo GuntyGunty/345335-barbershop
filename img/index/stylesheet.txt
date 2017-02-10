@@ -1,0 +1,59 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-breadcrumbs {
+    width: 30px;
+    height: 29px;
+    background-position: -10px -10px;
+}
+
+.sprite-cross2 {
+    width: 12px;
+    height: 12px;
+    background-position: -60px -10px;
+}
+
+.sprite-f {
+    width: 12px;
+    height: 22px;
+    background-position: -92px -10px;
+}
+
+.sprite-for_cross_2 {
+    width: 20px;
+    height: 20px;
+    background-position: -124px -10px;
+}
+
+.sprite-insta {
+    width: 21px;
+    height: 21px;
+    background-position: -164px -10px;
+}
+
+.sprite-locked {
+    width: 15px;
+    height: 17px;
+    background-position: -205px -10px;
+}
+
+.sprite-login {
+    width: 18px;
+    height: 16px;
+    background-position: -240px -10px;
+}
+
+.sprite-user_image {
+    width: 15px;
+    height: 15px;
+    background-position: -278px -10px;
+}
+
+.sprite-v {
+    width: 25px;
+    height: 16px;
+    background-position: -313px -10px;
+}
